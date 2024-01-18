@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-job-openings-at-manabie;bob-search-job-openings-at-manabie",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Bob search job openings at Manabie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Bob opens Manabie website",
+            "match": {
+              "location": "features/support/steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216775875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Bob goes to Careers section",
+            "match": {
+              "location": "features/support/steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135509917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Bob sees all job openings at Manabie",
+            "match": {
+              "location": "features/support/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59136958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-job-openings-at-manabie",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search job openings at Manabie",
+    "tags": [],
+    "uri": "features/search_job_openings_at_manabie.feature"
+  }
+]
